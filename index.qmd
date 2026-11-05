@@ -1,10 +1,9 @@
 ---
-title: "WWALK's Data & GitHub Crash Course"
-date: May 19, 2026
+title: "Data & GitHub Crash Course"
+date: Nov 5, 2026
 format: 
   revealjs:
     theme: dark
-editor: visual
 ---
 
 # Part I: Prep Work
@@ -20,15 +19,9 @@ My goal for this workshop is to give everyone the tools to:
 -   Know one approach to publicly archiving projects
 :::
 
-## GitHub Caveats
+## Privacy Caveats
 
--   Microsoft is a deeply evil company that profits from the war machine and the destruction of our planet
--   GitHub is a Microsoft company
--   There aren't currently a lot of alternatives, but there will be eventually and you can check out [this list](https://itsfoss.com/github-alternatives/) if you're interested
-
-## Privacy Caveats!!!
-
--   This lab has many examples of data that should not be uploaded to the internet, that does not mean that we can not use GitHub/Zenodo/reproducible science tools
+-   This lab has many examples of data that should not be publicly uploaded to the internet, that does not mean that we can not use GitHub/Zenodo/reproducible science tools
 -   We need to be extremely mindful, make sure our code is anonymized
 -   Upload fake example data so that users can understand how our code works, with clear metadata that explains that the real data is unavailable
 
@@ -40,17 +33,17 @@ My goal for this workshop is to give everyone the tools to:
 
 -   Ensuring that your workflow is transparent is important for:
 
-    -   Past/Current/Future You
+    -   Past/current/future you
 
-    -   WWALK Lab
+    -   Lab members
 
     -   Collaborators
 
     -   Other grad students
 
-    -   Scientific Community
+    -   Scientific community
 
-    -   **PUBLIC**
+    -   Public
 
 # Part II: R & RStudio
 
@@ -167,7 +160,7 @@ project
 
 ## Exercise: make a repo!
 
-[github.com/icrichmond/github-workshop](github.com/icrichmond/github-workshop) ![](presentation_imgs/newrepo3.png){fig-align="center"}
+[github.com/CHCRP-wildlife/github-workshop](github.com/CHCRP-wildlife/github-workshop) ![](presentation_imgs/newrepo3.png){fig-align="center"}
 
 ## Cloning (Download An Existing Directory)
 
@@ -199,7 +192,7 @@ After committing, you push your changes to your remote repository
 
 -   Same button as push (ctrl + shift + P)
 
-## Bonus: Ignoring 
+## Ignoring files 
 
 -   the [.gitignore file](https://git-scm.com/docs/gitignore) in your project directory allows you to force git to ignore specific files or folders
 
@@ -282,7 +275,7 @@ NOTE: you do not need to use Git to use Zenodo, you can also upload local files
 
 ## Resources
 
-**This workshop - including examples & code can all be found [here](https://github.com/wwalk-lab/data-github-workshop) and formatted slides are [here](https://wwalk-lab.github.io/data-github-workshop)**
+**This workshop - including examples & code can all be found [here](https://github.com/chcrp-wildlife/github-workshop) and formatted slides are [here](https://chcrp-wildlife.github.io/github-workshop)**
 
 Software Carpentry: [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/) & [Version Control with git](https://swcarpentry.github.io/git-novice/)
 
