@@ -1,5 +1,5 @@
 # Wildlife Group: Data & GitHub Workshop
-Author: Isabella Richmond  
+Author: Bella Richmond  
 Date of Workshop: Nov 5, 2026
 
 The goal of this workshop is to familiarize the CHCRP Wildlife reseasrch team + Humphries lab with knowledge about creating and contributing to a GitHub repository, best practices for file and project management, and archiving data and code publicly. 
